@@ -1,0 +1,7 @@
+FROM python:3.12
+
+WORKDIR /vol
+
+COPY . /vol/
+
+CMD [ "python","dc-vol.py" ]
